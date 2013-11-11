@@ -8,7 +8,9 @@ The main part will utilize the core git commands you've learned in order to crea
 
 ## Git Setup
 global gitconfig stuff
+
 global gitignore stuff
+
 link to ssh keys as optional bit(?)
 
 
@@ -19,6 +21,7 @@ link to ssh keys as optional bit(?)
 2. You will then `cd` into it, and `init`ialize a new git repository.
 
 3. Download this template file [`lab_template.java`](./lab_template.java) into ~/cs190lab5
+`wget https://github.com/scottopell/cs190lab5/blob/master/lab_template.java.raw`
 
 4. `add` this file to the repo, and `commit` it.
 
