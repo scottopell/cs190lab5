@@ -72,6 +72,9 @@ By the end of this lab, you'll know how to create a git repository, add files to
   ![*Creating a Repo*](http://i.imgur.com/01vKjfU.jpg) 
   
 7. Enter in a "Repository name" (`cs190lab5_<username>`) and click "Create Repository"
+  > Make sure NOT to check the box that says "initialize this with a readme"
+
+  > This is fine when you're doing this on your own, but for this lab, commands will not work as expected
 8. Copy to your clipboard the URL in the yellow box titled "Quick Setup"
 7. In _your_ local git repo (`cs190lab5_<username>`), add the github URL given as a remote.
 
