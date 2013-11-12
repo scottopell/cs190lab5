@@ -42,6 +42,11 @@ By the end of this lab, you'll know how to create a git repository, add files to
 
 2. You will then `cd` into the directory created above and `init`ialize a new git repository.
 
+   ```bash
+   cd ~/cs190lab5_$USER
+   git init
+   ```
+
 3. Download this template file [`LabTemplate.java`](./LabTemplate.java) into the repository you just created
 
   ```bash
