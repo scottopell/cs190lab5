@@ -181,7 +181,8 @@ By the end of this lab, you'll know how to create a git repository, add files to
     System.out.println( enlightenMe(URL) );
    ```
 
-24. We need to tell git that we have a version of LabTemplate.java that we like, so we will `add` LabTemplate.java, and then `commit` these changes.
+24. We need to tell git that we have a version of LabTemplate.java that we like, so please `add` LabTemplate.java.
+25. `commit` these changes.
   > For a commit that fixes merge conflicts, its common practice to use a message similar to "fixes merge conflicts on LabTemplate"
 
 25. Push these changes up to your remote repository (github) and verify that you can still compile and run LabTemplate.
