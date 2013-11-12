@@ -132,7 +132,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
 
    ```bash
    git commit -am 'message here'
-   git push
+   git push origin master
    ```
 
   #### Wait again, for your partner to catch up and finish this section
