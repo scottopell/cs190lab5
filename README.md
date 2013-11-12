@@ -7,21 +7,35 @@ There is a bit of setup required, you _must_ do this first.
 The main part will utilize the core git commands you've learned in order to create a new repository, add files, commit them, and push them up to your github.
 
 ## Git Setup
-global gitconfig stuff
+You need to set up your global gitconfig with your name and email.
+These will go on each commit unless.
 
-global gitignore stuff
+`git config --global user.name "Scott Opell"`
 
-link to ssh keys as optional bit(?)
+`git config --global user.email "me@scottopell.com"`
+
+We also want to use a global gitignore file, so we don't have to deal with vim swap files, DS_STORE files, or java class files
+
+We first need to copy the gitignore file from this repository into your home directory
+
+`wget -O ~/.gitignore_global https://github.com/scottopell/cs190lab5/raw/master/gitignore_global`
+
+Now we need to tell git where this file is
+
+`git config --global core.excludesfile ~/.gitignore_global`
 
 
 ## Main Task
 
 1. In your home directory, create a new folder named `cs190lab5_<username>`.  Ex. I would create a folder `cs190lab5_sopell`  
 
+`mkdir ~/cs190lab5_$USER`
+
 2. You will then `cd` into it, and `init`ialize a new git repository.
 
-3. Download this template file [`lab_template.java`](./lab_template.java) into ~/cs190lab5
-`wget https://github.com/scottopell/cs190lab5/blob/master/lab_template.java.raw`
+3. Download this template file [`lab_template.java`](./lab_template.java) into the repository you just created
+
+`wget -O ~/cs190lab5_$USER/lab_template.java https://github.com/scottopell/cs190lab5/raw/master/lab_template.java`
 
 4. `add` this file to the repo, and `commit` it.
 
