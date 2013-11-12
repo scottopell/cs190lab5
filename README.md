@@ -64,15 +64,16 @@ By the end of this lab, you'll know how to create a git repository, add files to
 
 5. Log in to github using the account you made for cs180
 
-6. Create a new repository
+6. Click the Create a New Repository button.
 
   ![*Creating a Repo*](http://i.imgur.com/01vKjfU.jpg) 
   
-  
-7. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
+7. Enter in a "Repository name" and click "Create Repository"
+8. Copy to your clipboard the URL in the yellow box titled "Quick Setup"
+7. In _your_ local git repo (`cs190lab5_<username>`), add the github URL given as a remote.
 
    ```bash
-   git remote add origin <git url here>
+   git remote add origin <git URL here>
    ```
 
 
@@ -96,24 +97,23 @@ By the end of this lab, you'll know how to create a git repository, add files to
   ![Add your partner](http://i.imgur.com/KEPd3ja.jpg)
 
   #### Stop here and wait for your partner.
-
-11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
+11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`).
 
   ```bash
   cd ~
-  git clone <git_url_here> 
+  git clone <his/her_git_URL_here> 
   ```
-  
+12. `cd` into your partner's repository
 12. In your partner's repository, compile and run LabTemplate
 
   ```bash
    javac LabTemplate.java
    java LabTemplate
   ```
-  > It will fail because we just have an invalid url, `https://example.com` inside `LabTemplate.java`.
+  > It will fail because we have an invalid URL (`https://example.com`) inside `LabTemplate.java`.
   
-13. Open up your partner's `LabTemplate.java`  with gedit and find the line with. `String url = "https://exammple.com"`.
-14. Replace the url with one of the two following urls
+13. Open up your partner's `LabTemplate.java`  with gedit and find the line with `String URL = "https://exammple.com"`.
+14. Replace the URL with one of the two following URLs
    
    ```
    https://api.github.com/zen
@@ -130,7 +130,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
    ```
 
   #### Wait again, for your partner to catch up
-17. Now, back in your own repository, you need change the `url` variable inside LabTemplate.java to other url, the one that your partner did not use when he made changes to your repository.
+17. Now, back in your own repository, you need change the `URL` variable inside LabTemplate.java to other URL, the one that your partner did not use when he made changes to your repository.
 18. Commit and push your changes using the same syntax as above.
 19. Try to push your changes with 
    
@@ -148,25 +148,25 @@ By the end of this lab, you'll know how to create a git repository, add files to
 22. You need to now open up LabTemplate in an editor of choice, and look for the section resembling the following
 
    ```java
-    // We need to ensure that we use a url that starts with https
+    // We need to ensure that we use a URL that starts with https
     // the s is important
 <<<<<<< HEAD
-    String url = "https://api.github.com/zen";
+    String URL = "https://api.github.com/zen";
 =======
-    String url = "https://api.github.com/octocat";
+    String URL = "https://api.github.com/octocat";
 >>>>>>> 581ac725455f2c8aef02a48dc5e45e44ccef69f1
     // We can print out the contents of any https site now!
-    System.out.println( enlightenMe(url) );
+    System.out.println( enlightenMe(URL) );
    ```
    
 23. We want to keep _our_ changes, not our partners, so we will delete the content in between ====== and >>>>>>> and the other merge markers. Your code will now look like you would expect, something roughly similar to this.
 
    ```java
-    // We need to ensure that we use a url that starts with https
+    // We need to ensure that we use a URL that starts with https
     // the s is important
-    String url = "https://api.github.com/zen";
+    String URL = "https://api.github.com/zen";
     // We can print out the contents of any https site now!
-    System.out.println( enlightenMe(url) );
+    System.out.println( enlightenMe(URL) );
    ```
 
 24. We need to tell git that we have a version of LabTemplate.java that we like, so we will `add` LabTemplate.java, and then `commit` these changes.
