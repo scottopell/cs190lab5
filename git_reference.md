@@ -3,44 +3,71 @@ Git Reference Sheet
 
 This is a reference guide for the git commands that we've gone over in lecture and that you will need for the lab.
 
-### flow for setting up a new repo
+### Setting Up a New Repo
 
-Create a repository in the current folder
+1. Create a repository in the current folder
 
-```bash
-git init
-```
---- 
+  ```bash
+  git init
+  ```
+  --- 
 
-Tell git to track a new file
+2. Tell git to track a new file
 
-```bash
-git add <filename>
-```
---- 
-Add changes made to some file to the staging area
+  ```bash
+  git add <filename(s)>
+  ```
+  --- 
+  
+3. Commit changes in staging area
 
-```bash
-git add <filename>
-```
----
-Commit changes in staging area
+  ```bash
+  git commit -m "<message here>"
+  
+  # ex.
+  git commit -m "adds initial java files for lab 8"
+  ```
+  ---
+ 
+4. Add remote repository 
+  
+  ```bash
+  git remote add origin <Github_repo_url> 
 
-```bash
-git commit -m "<message here>"
+  # ex.
+  git remote add origin https://github.com/tyhoff/asdf.git
+  ```
+  ---
 
-# ex.
-git commit -m "adds initial java files for lab 8"
-```
+5. Initial push of commits to remote branch
 
----
-Initial push of commits to remote branch
+  ```bash
+  git push -u origin master
+  ```
 
-```bash
-git push -u origin master
-```
+### Pushing Changes to Previously Configured Remote 
 
-### commonly used commands
+1. Add changes made to some file to the staging area
+  
+  ```bash
+  git add <filename(s)>
+  ```
+  ---
+
+2. Commit changes to staging area
+    
+  ```bash
+  git commit -m "<message here>"
+  ```
+  ---
+
+3. Push changes to remote repository
+    
+  ```bash
+  git push
+  ```
+
+### Commonly Used Commands
 
 Download an existing repository
 
