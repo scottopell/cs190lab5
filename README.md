@@ -37,15 +37,17 @@ There is a bit of setup required that you _must_ do this first.
   mkdir ~/cs190lab5_$USER
   ```
 
-2. You will then `cd` into the directory created above and `init`ialize a new git repository.
+2. `cd` into the directory created above 
+3. `init`ialize a new git repository.
 
-3. Download this template file [`LabTemplate.java`](./LabTemplate.java) into the repository you just created
+4. Download this template file [`LabTemplate.java`](./LabTemplate.java) into the repository you just created
 
   ```bash
   wget -O ~/cs190lab5_$USER/LabTemplate.java https://github.com/scottopell/cs190lab5/raw/master/LabTemplate.java
   ```
 
-4. `add` this file to the repo, and `commit` it.
+5. `add` LabTemplate.java to the repo
+6. `commit` LabTemplate.java
 
   > ####Hint: 
   
@@ -54,27 +56,27 @@ There is a bit of setup required that you _must_ do this first.
   > To commit files after you've added them, you can use `git commit -m "<commit message here>"`
 
 
-5. Log in to github using the account you made for cs180
+7. Log in to github using the account you made for cs180
 
-6. Create a new repository
+8. Create a new repository
 
   ![*Creating a Repo*](http://i.imgur.com/01vKjfU.jpg) 
   
-7. Go to the repo settings
+9. Go to the repo settings
 
   ![*Go to the repo's settings*](http://i.imgur.com/LCQdeWv.jpg)
 
-8. Add your partner as a collaborator
+10. Add your partner as a collaborator
 
   ![Add your partner](http://i.imgur.com/KEPd3ja.jpg)
 
-9. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
-10. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
+11. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
+12. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
 
   > Note that the above two commands come straight out of the "repository created" page on github.
 
-11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
-12. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
+13. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
+14. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
 
 
 
