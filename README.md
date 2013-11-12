@@ -42,7 +42,7 @@ There is a bit of setup required that you _must_ do this first.
 3. Download this template file [`LabTemplate.java`](./LabTemplate.java) into the repository you just created
 
   ```bash
-  `wget -O ~/cs190lab5_$USER/LabTemplate.java https://github.com/scottopell/cs190lab5/raw/master/LabTemplate.java`
+  wget -O ~/cs190lab5_$USER/LabTemplate.java https://github.com/scottopell/cs190lab5/raw/master/LabTemplate.java
   ```
 
 4. `add` this file to the repo, and `commit` it.
