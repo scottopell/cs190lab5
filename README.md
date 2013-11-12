@@ -64,10 +64,13 @@ There is a bit of setup required that you _must_ do this first.
 
   > TODO SCREENSHOT HERE
 
-8. Add your new github repo as a remote HEAD on your git repo inside folder `cs190lab5_<username>`
+8. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
 9. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
+
+  > Note that the above two commands come straight out of the "repository created" page on github.
+
 9. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
-10. Follow the instructions in `lab_template.java`
+10. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
 
 
 
