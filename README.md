@@ -97,7 +97,10 @@ By the end of this lab, you'll know how to create a git repository, add files to
 
   ![Add your partner](http://i.imgur.com/KEPd3ja.jpg)
 
-  #### Stop here and wait for your partner.
+  #### Stop here and wait for your partner for finish this section
+  
+## Collaboration
+
 11. Clone your partner's repository into your home folder
 
   ```bash
@@ -132,7 +135,10 @@ By the end of this lab, you'll know how to create a git repository, add files to
    git push
    ```
 
-  #### Wait again, for your partner to catch up
+  #### Wait again, for your partner to catch up and finish this section
+  
+## Merge Conflict
+
 17. Now, `cd` into your own repository. 
 18. Open up your own `LabTemplate.java` in gedit.
 19. The file will contain the `https://example.com` URL. Your parter has committed a change to your own repository. Ask him which URL he/she has used.
