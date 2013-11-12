@@ -61,6 +61,7 @@ There is a bit of setup required that you _must_ do this first.
   ![*Creating a Repo*](http://i.imgur.com/Bls9jMs.jpg) 
   
 7. Go to the repo settings
+
   ![*Go to the repo's settings*](http://i.imgur.com/4IlSbtD.jpg)
 
 8. Add your partner as a collaborator
