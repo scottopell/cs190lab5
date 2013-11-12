@@ -68,22 +68,41 @@ By the end of this lab, you'll know how to create a git repository, add files to
 
   ![*Creating a Repo*](http://i.imgur.com/01vKjfU.jpg) 
   
-7. Go to the repo settings
+  
+7. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
+
+   ```bash
+   git remote add origin <git url here>
+   ```
+
+
+8. Do your initial push
+
+   ```bash
+   git push -u origin master
+   ```
+
+  > Note that the above two commands come straight out of the "repository created" page on github.
+  > You will be prompted for a username and password here, use your login information for github
+
+
+  
+9. Go to the repo settings
 
   ![*Go to the repo's settings*](http://i.imgur.com/LCQdeWv.jpg)
 
-8. Add your partner as a collaborator
+10. Add your partner as a collaborator
 
   ![Add your partner](http://i.imgur.com/KEPd3ja.jpg)
 
-9. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
-  > You will be prompted for a username and password here, use your login information for github
-
-10. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
-
-  > Note that the above two commands come straight out of the "repository created" page on github.
+  #### Stop here and wait for your partner.
 
 11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
+
+  ```bash
+  git clone <git_url_here> 
+  ```
+  
 12. In your partner's repository, compile and run LabTemplate
 
   ```bash
