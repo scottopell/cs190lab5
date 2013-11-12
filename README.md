@@ -114,6 +114,8 @@ By the end of this lab, you'll know how to create a git repository, add files to
 13. It will fail because we just have an example url inside LabTemplate, so open up LabTemplate and find the url variable.
 14. Replace the url with one of the two following urls
    
+  > NOTE: You will use either the first or the second URL, and your partner will use the other. Please coordinate which one you will be using.
+
    ```
    https://api.github.com/zen
               or
