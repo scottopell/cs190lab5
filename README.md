@@ -128,6 +128,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
    git push
    ```
 
+  #### Wait again, for your partner to catch up
 17. Now, back in your own repository, you need change the `url` variable inside LabTemplate.java to other url, the one that your partner did not use when he made changes to your repository.
 18. Commit and push your changes using the same syntax as above.
 19. Try to push your changes with 
