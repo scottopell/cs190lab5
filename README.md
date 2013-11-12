@@ -1,6 +1,6 @@
 cs190lab5
 =========
-Before starting lab5, its highly recommended that you review the [Git Reference Sheet](./git_reference.md). Not all commands will be given to you and this document has the ones you will need to complete this lab.
+Before starting lab5, it is _highly recommended_ that you review the [Git Reference Sheet](./git_reference.md). Not all commands will be given to you and the document above has the ones you will need to complete this lab.
 
 The main part will utilize the core git commands you've learned in order to create a new repository, add files, commit them, and push them up to your github.
 
