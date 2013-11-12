@@ -58,15 +58,15 @@ There is a bit of setup required that you _must_ do this first.
 
 6. Create a new repository
 
-  ![*Creating a Repo*](http://i.imgur.com/Bls9jMs.jpg) 
+  ![*Creating a Repo*](http://i.imgur.com/01vKjfU.jpg) 
   
 7. Go to the repo settings
 
-  ![*Go to the repo's settings*](http://i.imgur.com/4IlSbtD.jpg)
+  ![*Go to the repo's settings*](http://i.imgur.com/LCQdeWv.jpg)
 
 8. Add your partner as a collaborator
 
-  ![Add your partner](http://i.imgur.com/WfcHOuq.jpg)
+  ![Add your partner](http://i.imgur.com/KEPd3ja.jpg)
 
 9. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
 10. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
