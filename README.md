@@ -90,7 +90,18 @@ There is a bit of setup required that you _must_ do this first.
   * If you recall, a merge conflict occurs when git doesn't know which changes you want.
 
   * So if you open up your copy of LabTemplate.java, you'll see a section that something like this
-  TODO PUT MERGE CONFLICT HERE
+
+   ```java
+       // We need to ensure that we use a url that starts with https
+    // the s is important
+<<<<<<< HEAD
+    String url = "https://api.github.com/zen";
+=======
+    String url = "https://api.github.com/octocat";
+>>>>>>> 581ac725455f2c8aef02a48dc5e45e44ccef69f1
+    // We can print out the contents of any https site now!
+    System.out.println( enlightenMe(url) );
+   ```
 
   * You need to decide whether you want your version (the one on top) or your partner's version (the one on bottom)
 
