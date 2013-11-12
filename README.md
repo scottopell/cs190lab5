@@ -63,5 +63,29 @@ Now we need to tell git where this file is
 
 
 
+## Collaboration
+
+  * Now your partner needs to pick a different url, change it in his copy of your repository, add, commit and push the changes.
+  * You will then add, commit and attempt to push your changes.
+
+  * Git will tell you (in a wordier way) that you haven't pulled in a while and there is new data, so you will need to pull before you can push your changes.
+
+  * When you pull the latest commits, you will be informed that there is a merge conflict.
+  * You need to fix this before you'll be able to push your changes.
+
+  * If you recall, a merge conflict occurs when git doesn't know which changes you want.
+
+  * So if you open up your copy of LabTemplate.java, you'll see a section that something like this
+  TODO PUT MERGE CONFLICT HERE
+
+  * You need to decide whether you want your version (the one on top) or your partner's version (the one on bottom)
+
+  * You'll then delete the version that you don't want, and the separators (<<<<<<, =======, and >>>>>>)
+
+  * You can now add LabTemplate.java, commit it, and push your copy to github
+
+  * Now repeat the above steps on the other repository, but have the other partner push their changes first
+
+
 ### Grading
 When you call the TA over, have both yours and your partner's repository on github open to the commit log.
