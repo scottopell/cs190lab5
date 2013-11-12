@@ -77,23 +77,46 @@ By the end of this lab, you'll know how to create a git repository, add files to
   > Note that the above two commands come straight out of the "repository created" page on github.
 
 11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
-12. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
+12. In your partner's repository, compile and run LabTemplate
 
+  ```bash
+   javac LabTemplate.java
+   java LabTemplate
+  ```
+  
+13. It will fail because we just have an example url inside LabTemplate, so open up LabTemplate and find the url variable.
+14. Replace the url with one of the two following urls
+   
+   ```
+   https://api.github.com/zen
+              or
+   https://api.github.com/octocat
+   ```
 
+15. Now save this file, compile and run again using the above commands. You will now see some output from it.
+16. While still inside your partner's repository, you will commit these changes and push them up to their repository
 
-## Collaboration
+   ```bash
+   git commit -am 'message here'
+   git push
+   ```
 
-  * Now your partner needs to pick a different url, change it in his copy of your repository, add, commit and push the changes.
-  * You will then add, commit and attempt to push your changes.
+17. Now, back in your own repository, you need change the `url` variable inside LabTemplate.java to other url, the one that your partner did not use when he made changes to your repository.
+18. Commit and push your changes using the same syntax as above.
+19. Try to push your changes with 
+   
+   ```bash
+   git push
+   ```
 
-  * Git will tell you (in a wordier way) that you haven't pulled in a while and there is new data, so you will need to pull before you can push your changes.
+20. Git will tell you that there are new commits on the remote, so you need to pull them before you can push any of your commits.
 
-  * When you pull the latest commits, you will be informed that there is a merge conflict.
-  * You need to fix this before you'll be able to push your changes.
-
-  * If you recall, a merge conflict occurs when git doesn't know which changes you want.
-
-  * So if you open up your copy of LabTemplate.java, you'll see a section that something like this
+   ```bash
+   git pull
+   ```
+   
+21. Git will tell you that there are merge conflicts LabTemplate.java
+22. You need to now open up LabTemplate in an editor of choice, and look for the section resembling the following
 
    ```java
     // We need to ensure that we use a url that starts with https
@@ -106,15 +129,25 @@ By the end of this lab, you'll know how to create a git repository, add files to
     // We can print out the contents of any https site now!
     System.out.println( enlightenMe(url) );
    ```
+   
+23. We want to keep _our_ changes, not our partners, so we will delete the content in between ====== and >>>>>>> and the other merge markers. Your code will now look like you would expect, something roughly similar to this.
 
-  * You need to decide whether you want your version (the one on top) or your partner's version (the one on bottom)
+   ```java
+    // We need to ensure that we use a url that starts with https
+    // the s is important
+    String url = "https://api.github.com/zen";
+    // We can print out the contents of any https site now!
+    System.out.println( enlightenMe(url) );
+   ```
 
-  * You'll then delete the version that you don't want, and the separators (<<<<<<, =======, and >>>>>>)
+24. We need to tell git that we have a version of LabTemplate.java that we like, so we will `add` LabTemplate.java, and then `commit` these changes.
+  > For a commit that fixes merge conflicts, its common practice to use a message similar to "fixes merge conflicts on LabTemplate"
 
-  * You can now add LabTemplate.java, commit it, and push your copy to github
+25. Push these changes up to your remote repository (github) and verify that you can still compile and run LabTemplate.
 
-  * Now repeat the above steps on the other repository, but have the other partner push their changes first
+You have now created a repository from scratch, added, committed, pushed, pulled and fixed your first merge conflict!
+
 
 
 ### Grading
-When you call the TA over, have both yours and your partner's repository on github open to the commit log.
+Before raising your hand to be graded, open up your repository on github and open it to the "network" tab. This is right above the settings tab from earlier. 
