@@ -7,66 +7,81 @@ This is a reference guide for the git commands that we've gone over in lecture a
 
 Create a repository in the current folder
 
-`git init`
-
+```bash
+git init
+```
 --- 
 
 Tell git to track a new file
 
-`git add <filename>`
-
+```bash
+git add <filename>
+```
 --- 
 Add changes made to some file to the staging area
 
-`git add <filename>`
-
+```bash
+git add <filename>
+```
 ---
 Commit changes in staging area
 
-`git commit -m "<message here>"`
+```bash
+git commit -m "<message here>"
 
-ex.
-`git commit -m "adds initial java files for lab 8"`
+# ex.
+git commit -m "adds initial java files for lab 8"
+```
 
 ---
 Initial push of commits to remote branch
 
-`git push -u origin master`
-
+```bash
+git push -u origin master
+```
 
 ### commonly used commands
 
 Download an existing repository
 
-`git clone <url here> <location here>`
+```bash
+git clone <url here> <location here>
 
-ex.
-`git clone https://github.com/scottopell/cs190lab5.git ~/cs190lab5`
+# ex.
+git clone https://github.com/scottopell/cs190lab5.git ~/cs190lab5
+```
 
 ---
 Push commits to a remote branch
 
-`git push`
+```bash
+git push
+```
 
 ---
 
 Pull latest commits from remote branch
 
-`git pull`
+```bash
+git pull
+```
 
 ---
 Check status of repository
 
-`git status`
+```bash
+git status
+```
 
 ---
 Check log of recent commits
 
-`git log`
+```bash
+git log
 
-OR, for a simpler view
-
-`git log pretty=oneline`
+# OR, for a simpler view
+git log pretty=oneline
+```
 
 ---
 To remove a file from the staging area
@@ -75,29 +90,36 @@ To remove a file from the staging area
 
 > You will only ever need to do this if you accidentally `add` a file
 
-`git rm --cached <filename>`
+```bash
+git rm --cached <filename>
+```
 
 ---
 Commit latest changes with a short message
 
-`git commit -m "<message here>"`
+```bash
+git commit -m "<message here>"
 
-ex. 
-`git commit -m "initial commit"`
+# ex. 
+git commit -m "initial commit"
+```
 
 ---
 Add all files in current directory
 
-`git add .`
+```bash
+git add .
+```
 
 ---
 Add changes to _tracked_ files to the staging area AND commit them
 
-`git commit -am "<message here>"`
+```bash
+git commit -am "<message here>"
 
-ex.
-`git commit -am "fixes bug #4"`
-
+# ex.
+git commit -am "fixes bug #4"
+```
 
 ### Troubleshooting
 
