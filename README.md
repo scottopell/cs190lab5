@@ -146,7 +146,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
 18. Open up your own `LabTemplate.java` in gedit.
 19. The file will contain the `https://example.com` URL. Your parter has committed a change to your own repository. Ask him which URL he/she has used.
 18. You need change the `URL` variable inside LabTemplate.java to other URL, the one that your partner did not use when he made changes to your repository.
-18. Commit and push your changes using the same syntax as above.
+18. `Commit` your changes using the same syntax as above.
 19. Try to push your changes with 
    
    ```bash
