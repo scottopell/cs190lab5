@@ -3,70 +3,112 @@ Git Reference Sheet
 
 This is a reference guide for the git commands that we've gone over in lecture and that you will need for the lab.
 
-### flow for setting up a new repo
+### Setting Up a New Repo
 
-Create a repository in the current folder
+1. Create a repository in the current folder
 
-`git init`
+  ```bash
+  git init
+  ```
+  --- 
 
---- 
+2. Tell git to track a new file
 
-Tell git to track a new file
+  ```bash
+  git add <filename(s)>
+  ```
+  --- 
+  
+3. Commit changes in staging area
 
-`git add <filename>`
+  ```bash
+  git commit -m "<message here>"
+  
+  # ex.
+  git commit -m "adds initial java files for lab 8"
+  ```
+  ---
+ 
+4. Add remote repository 
+  
+  ```bash
+  git remote add origin <Github_repo_url> 
 
---- 
-Add changes made to some file to the staging area
+  # ex.
+  git remote add origin https://github.com/tyhoff/asdf.git
+  ```
+  ---
 
-`git add <filename>`
+5. Initial push of commits to remote branch
 
----
-Commit changes in staging area
+  ```bash
+  git push -u origin master
+  ```
 
-`git commit -m "<message here>"`
+### Pushing Changes to Previously Configured Remote 
 
-ex.
-`git commit -m "adds initial java files for lab 8"`
+1. Add changes made to some file to the staging area
+  
+  ```bash
+  git add <filename(s)>
+  ```
+  ---
 
----
-Initial push of commits to remote branch
+2. Commit changes to staging area
+    
+  ```bash
+  git commit -m "<message here>"
+  ```
+  ---
 
-`git push -u origin master`
+3. Push changes to remote repository
+    
+  ```bash
+  git push
+  ```
 
-
-### commonly used commands
+### Most of the Important Commands
 
 Download an existing repository
 
-`git clone <url here> <location here>`
+```bash
+git clone <url here> <location here>
 
-ex.
-`git clone https://github.com/scottopell/cs190lab5.git ~/cs190lab5`
+# ex.
+git clone https://github.com/scottopell/cs190lab5.git ~/cs190lab5
+```
 
 ---
 Push commits to a remote branch
 
-`git push`
+```bash
+git push
+```
 
 ---
 
 Pull latest commits from remote branch
 
-`git pull`
+```bash
+git pull
+```
 
 ---
 Check status of repository
 
-`git status`
+```bash
+git status
+```
 
 ---
 Check log of recent commits
 
-`git log`
+```bash
+git log
 
-OR, for a simpler view
-
-`git log pretty=oneline`
+# OR, for a simpler view
+git log pretty=oneline
+```
 
 ---
 To remove a file from the staging area
@@ -75,29 +117,36 @@ To remove a file from the staging area
 
 > You will only ever need to do this if you accidentally `add` a file
 
-`git rm --cached <filename>`
+```bash
+git rm --cached <filename>
+```
 
 ---
 Commit latest changes with a short message
 
-`git commit -m "<message here>"`
+```bash
+git commit -m "<message here>"
 
-ex. 
-`git commit -m "initial commit"`
+# ex. 
+git commit -m "initial commit"
+```
 
 ---
 Add all files in current directory
 
-`git add .`
+```bash
+git add .
+```
 
 ---
 Add changes to _tracked_ files to the staging area AND commit them
 
-`git commit -am "<message here>"`
+```bash
+git commit -am "<message here>"
 
-ex.
-`git commit -am "fixes bug #4"`
-
+# ex.
+git commit -am "fixes bug #4"
+```
 
 ### Troubleshooting
 
