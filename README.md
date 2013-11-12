@@ -33,9 +33,9 @@ Now we need to tell git where this file is
 
 2. You will then `cd` into it, and `init`ialize a new git repository.
 
-3. Download this template file [`lab_template.java`](./lab_template.java) into the repository you just created
+3. Download this template file [`LabTemplate.java`](./LabTemplate.java) into the repository you just created
 
-`wget -O ~/cs190lab5_$USER/lab_template.java https://github.com/scottopell/cs190lab5/raw/master/lab_template.java`
+`wget -O ~/cs190lab5_$USER/LabTemplate.java https://github.com/scottopell/cs190lab5/raw/master/LabTemplate.java`
 
 4. `add` this file to the repo, and `commit` it.
 
