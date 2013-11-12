@@ -53,16 +53,19 @@ By the end of this lab, you'll know how to create a git repository, add files to
   wget -O ~/cs190lab5_$USER/LabTemplate.java https://github.com/scottopell/cs190lab5/raw/master/LabTemplate.java
   ```
 
-4. `add` this file to the repo, and `commit` it.
+4. `add` this file to the repo
 
-  > ####Hint: 
-  
-  > Remember, to add files to the repository the syntax is `git add <filename>`
-  
-  > To commit files after you've added them, you can use `git commit -m "<commit message here>"`
+  ```bash
+  git add <filename>
+  ```
 
+5. `commit` this file to the repo
 
-5. Log in to github using the account you made for cs180
+  ```bash
+  git commit -m "<commit message>"
+  ```
+
+5. Log in to GitHub.com using the account you made for cs180
 
 6. Click the Create a New Repository button.
 
