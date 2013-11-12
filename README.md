@@ -93,7 +93,7 @@ There is a bit of setup required that you _must_ do this first.
   * So if you open up your copy of LabTemplate.java, you'll see a section that something like this
 
    ```java
-       // We need to ensure that we use a url that starts with https
+    // We need to ensure that we use a url that starts with https
     // the s is important
 <<<<<<< HEAD
     String url = "https://api.github.com/zen";
