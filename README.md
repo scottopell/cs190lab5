@@ -68,6 +68,8 @@ There is a bit of setup required that you _must_ do this first.
   ![](http://i.imgur.com/porwua0.png)
 
 9. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
+  > You will be prompted for a username and password here, use your login information for github
+
 10. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
 
   > Note that the above two commands come straight out of the "repository created" page on github.
