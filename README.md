@@ -58,19 +58,22 @@ There is a bit of setup required that you _must_ do this first.
 
 6. Create a new repository
 
-  > TODO SCREENSHOT HERE
+  ![](http://i.imgur.com/b3o3eNg.png)
+  
+7. Go to the repo settings
+  ![](http://i.imgur.com/5LkitN3.png)
 
-7. Add your partner as a collaborator
+8. Add your partner as a collaborator
 
-  > TODO SCREENSHOT HERE
+  ![](http://i.imgur.com/porwua0.png)
 
-8. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
-9. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
+9. In _your_ local git repo (`cs190lab5_<username>`), add the github url given as a remote.
+10. Do your initial push (Note that an initial push is different from a normal push, check the git reference sheet or github's instructions for the initial push syntax)
 
   > Note that the above two commands come straight out of the "repository created" page on github.
 
-9. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
-10. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
+11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
+12. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
 
 
 
