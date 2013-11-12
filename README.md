@@ -111,11 +111,16 @@ By the end of this lab, you'll know how to create a git repository, add files to
    java LabTemplate
   ```
   
-13. It will fail because we just have an example url inside LabTemplate, so open up LabTemplate and find the url variable.
+  It will fail because we just have the url `https://example.com` inside LabTemplate, which is invalid
+  
+13. You need to open up your own LabTemplate.java in gedit and edit the file. 
+  
+  ```bash
+  gedit <filename>
+  ```
+
 14. Replace the url with one of the two following urls
    
-  > NOTE: You will use either the first or the second URL, and your partner will use the other. Please coordinate which one you will be using.
-
    ```
    https://api.github.com/zen
               or
