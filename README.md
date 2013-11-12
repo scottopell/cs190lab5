@@ -100,6 +100,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
 11. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
 
   ```bash
+  cd ~
   git clone <git_url_here> 
   ```
   
