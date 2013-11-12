@@ -75,7 +75,7 @@ There is a bit of setup required that you _must_ do this first.
 
   > Note that the above two commands come straight out of the "repository created" page on github.
 
-13. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username`)
+13. Clone your partner's repository into your home folder (`~/cs190lab5_<their_username>`)
 14. Read through the comments in `LabTemplate.java`, do what it says, then go to the section below, "Collaboration"
 
 
