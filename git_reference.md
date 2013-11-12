@@ -67,7 +67,7 @@ This is a reference guide for the git commands that we've gone over in lecture a
   git push
   ```
 
-### Commonly Used Commands
+### Most Important Commands
 
 Download an existing repository
 
