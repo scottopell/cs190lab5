@@ -110,8 +110,9 @@ By the end of this lab, you'll know how to create a git repository, add files to
    javac LabTemplate.java
    java LabTemplate
   ```
+  > It will fail because we just have an invalid url, `https://example.com` inside `LabTemplate.java`.
   
-13. It will fail because we just have an example url inside LabTemplate, so open up LabTemplate and find the url variable.
+13. Open up your partner's `LabTemplate.java`  with gedit and find the line with. `String url = "https://exammple.com"`.
 14. Replace the url with one of the two following urls
    
    ```
