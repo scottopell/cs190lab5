@@ -31,6 +31,13 @@ By the end of this lab, you'll know how to create a git repository, add files to
   ```bash
   git config --global core.excludesfile ~/.gitignore_global
   ```
+  
+4. And don't worry about this for now, just know that this is the safest option
+
+   ```bash
+   git config --global push.default simple
+   ```
+   
 
 ## Creating, Committing, and Pushing
 
