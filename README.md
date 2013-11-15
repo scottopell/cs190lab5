@@ -32,7 +32,7 @@ By the end of this lab, you'll know how to create a git repository, add files to
   git config --global core.excludesfile ~/.gitignore_global
   ```
   
-4. And don't worry about this for now, just know that this is the safest option
+4. Run the command below. Don't worry about what it does. It sets the settings of git to the safest options.
 
    ```bash
    git config --global push.default simple
