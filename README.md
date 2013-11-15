@@ -9,6 +9,26 @@ There is a bit of setup required that you _must_ do this first.
 ## What You'll Learn
 By the end of this lab, you'll know how to create a git repository, add files to it, make changes, push everything to github, and how collaborate effectively using git and github.
 
+## Setup ##
+
+Depending on your working environment, perform the appropriate action:
+
+| Environment   | Action        |
+| ------------- | ------------- |
+| Linux Lab Machine            | Open a terminal window        |
+| Windows or Personal Computer | SSH into `data.cs.purdue.edu`*  |
+
+----
+
+\* You must have X11 forwarding enabled. If you are on the Windows Lab Computer, follow the instructions below:
+
+1. Search for 'Xming' in the start menu and run it.
+2. Open PuTTy
+3. Expand the 'SSH' tab from the 'Category' list
+4. Choose 'X11' from 'SSH' list
+5. Check 'Enable X11 Forwarding'
+6. Connect like normal to `data.cs.purdue.edu` within PuTTy.
+
 ## Required Git Setup
 1. You need to set up your global gitconfig with your name and email. These will be tied to each commit so that it is known who committed the code.
   
