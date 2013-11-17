@@ -180,6 +180,8 @@ Depending on your working environment, perform the appropriate action:
    git push
    ```
 
+  > NOTE: This WILL cause an error, that's okay, read on to the next step
+
 20. Git will tell you that there are new commits on the remote, so you need to pull them before you can push any of your commits.
 
    ```bash
