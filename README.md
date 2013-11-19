@@ -2,6 +2,8 @@ cs190lab5
 =========
 Before starting lab5, it is _highly recommended_ that you review the [Git Reference Sheet](./git_reference.md). Not all commands will be given to you and the document above has the ones you will need to complete this lab.
 
+The slides for "Git Basics" can be found here. [Git Basics](https://docs.google.com/presentation/d/1zmM8ySifYmx3arxsvLsEK9eUrGzWNsZdq1qGN8esA5E/edit?usp=sharing)
+
 The main part will utilize the core git commands you've learned in order to create a new repository, add files, commit them, and push them up to your github.
 
 There is a bit of setup required that you _must_ do this first.
